@@ -5,8 +5,6 @@ public class HourCalculatin
 {
     public static void main(String[] args)
     {
-
-
         Scanner scanner = new Scanner(System.in);
         int n1, h, m, s;
         System.out.println("Enter time in seconds" );

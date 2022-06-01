@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="Maths">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/HourCalculatin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="HourCalculation">
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/HourCalculatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/HourCalculatin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1654090008192</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="HourCalculation">
+      <created>1654091821200</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1654091821200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +231,7 @@
     <MESSAGE value="Leap" />
     <MESSAGE value="StringExercise" />
     <MESSAGE value="Maths" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maths" />
+    <MESSAGE value="HourCalculation" />
+    <option name="LAST_COMMIT_MESSAGE" value="HourCalculation" />
   </component>
 </project>
