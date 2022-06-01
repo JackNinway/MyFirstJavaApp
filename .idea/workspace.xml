@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="v.2 first commit2">
+    <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="Leap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/LeapOrNot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.LeapOrNot">
     <configuration name="LeapOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lexicon.javagroup43.LeapOrNot" />
@@ -74,6 +73,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="" />
@@ -112,7 +114,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1654072819224</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Leap">
+      <created>1654076146593</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1654076146593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v.2 first commit" />
     <MESSAGE value="v.2 first commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.2 first commit2" />
+    <MESSAGE value="Leap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leap" />
   </component>
 </project>
