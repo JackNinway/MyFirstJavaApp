@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="HourCalculation">
+    <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="NewRowByEnterChar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/GuessNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/HourCalculatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/HourCalculatin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/MathsWithInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/MathsWithInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,33 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.GuessNumber">
+    <configuration name="CalssExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.javagroup43.CalssExercise" />
+      <module name="MyFirstJavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.javagroup43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.javagroup43.GuessNumber" />
+      <module name="MyFirstJavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.javagroup43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HourCalculatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lexicon.javagroup43.HourCalculatin" />
       <module name="MyFirstJavaApp" />
@@ -97,39 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.javagroup43.StringExercise" />
-      <module name="MyFirstJavaApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.lexicon.javagroup43.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryMaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.javagroup43.TryMaths" />
-      <module name="MyFirstJavaApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.lexicon.javagroup43.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessNumber" />
+        <item itemvalue="Application.CalssExercise" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HourCalculatin" />
         <item itemvalue="Application.MathsWithInput" />
-        <item itemvalue="Application.StringExercise" />
-        <item itemvalue="Application.TryMaths" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1654091821200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="NewRowByEnterChar">
+      <created>1654168105196</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1654168105196</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +244,7 @@
     <MESSAGE value="StringExercise" />
     <MESSAGE value="Maths" />
     <MESSAGE value="HourCalculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="HourCalculation" />
+    <MESSAGE value="NewRowByEnterChar" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewRowByEnterChar" />
   </component>
 </project>
