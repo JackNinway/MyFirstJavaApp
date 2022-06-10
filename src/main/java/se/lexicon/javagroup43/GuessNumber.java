@@ -8,8 +8,8 @@ public class GuessNumber
     {
         Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
-        int ranNr =1, inputNr = 3;
-        int nGuess=0;
+        int ranNr =1, inputNr = 3, nGuess=0;
+
 
         while (ranNr != inputNr)
         {
@@ -19,15 +19,12 @@ public class GuessNumber
             inputNr = scanner.nextInt();
             nGuess++;
             if (inputNr==ranNr)
-                System.out.println("You guess was correct at the " + nGuess + "trial");
+                System.out.println("Your guess was correct at the " + nGuess + "trial");
             else if ( inputNr>ranNr )
-            {
-                System.out.println("You guess was to high, guess nr:" + nGuess);
-            }
+                System.out.println("Your guess was to high, guess nr:" + nGuess);
             else
-                System.out.println("You guess was to low, guess nr:" + nGuess);
-            System.out.println("Correct nr: " +ranNr );
-
+                System.out.println("Your guess was to low, guess nr:" + nGuess);
+            System.out.println("Correct number is: " +ranNr );
         }
     }
 }

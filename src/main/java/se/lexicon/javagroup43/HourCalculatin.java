@@ -13,7 +13,5 @@ public class HourCalculatin
         m = (n1 % 3600) / 60;
         s = n1 % 60;
         System.out.println( "The time is "+h + ":" + m + ":" + s);
-
     }
-
 }
