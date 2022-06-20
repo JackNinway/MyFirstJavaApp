@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8fd4b22-b7a4-496d-9e86-17bc5a454e8f" name="Changes" comment="RemoveDuplicate with sorting">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/NameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/StringExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/ArrayExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/ArrayExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/NameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/NameRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +237,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1654866951507</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="RemoveDuplicate with sorting">
+      <created>1655386480171</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1655386480171</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,8 +279,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/se/lexicon/javagroup43/NameRepository.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="13" />
+          <line>133</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

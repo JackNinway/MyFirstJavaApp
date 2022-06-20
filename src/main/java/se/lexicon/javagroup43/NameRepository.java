@@ -3,8 +3,7 @@ import java.util.Arrays;
 
 public class NameRepository {
 
-    private static String[] names = {"Erik Svensson", "Jan Karlsson", "Rolf Rolfsson"};
-
+    private static String[] names = new String[0];
     public static void main(String[] args) {
         String ourStrArr[] = {"Klar Diamant", "Röd Rubin", "Blå Safir", "Klar Kristall", "Äkta Rubin" };
         String [] fStrArr;
@@ -25,7 +24,8 @@ public class NameRepository {
         System.out.println("Calling findByLasttName for lastname: - Rubin -"  );
         System.out.println(Arrays.toString(findByLastName("Rubin")) );
         System.out.println("Calling update for name: - Blå Safir-"  );
-        System.out.println(Arrays.toString(update("Blå Safir" ,"Blå Opal")) );
+        update("Blå" ,"Blå Opal") ;
+        System.out.println(Arrays.toString(names));
 
         clear();
     }
@@ -35,7 +35,6 @@ public class NameRepository {
 //        System.out.println("Calling getSize, length is:  " + names.length );
         return names.length;
     }
-
 // Sends in an array that set the private static array.
 // This should replace all existing names.
     public static void setNames(String[] names){
@@ -45,9 +44,7 @@ public class NameRepository {
     }
 //    Should completely empty the array.
     public static void clear(){
-        for(int i =0; i < names.length; i++) {
-            names[i] = null;
-        }
+        names = new String[0];
         System.out.println("Calling clear which array length is:  " + names.length);
         System.out.println(Arrays.toString(names));
     }
@@ -89,11 +86,10 @@ public class NameRepository {
 //    Searches the array trying to find all names that has passed in first name. Returns a String array containing all
 //    matches.
     public static String[] findByFirstName(final String firstName){
-        String tmpStr = firstName;
         String[] foundNames = new String[0];
         int c = 0;
         for(int i=0; i < names.length; i++){
-            if(names[i].startsWith(tmpStr)){
+            if(names[i].startsWith(firstName)){
                 foundNames = Arrays.copyOf(foundNames,c+1);
                 foundNames[c] = names[i];
                 c++;
@@ -121,16 +117,34 @@ public class NameRepository {
 //    with the new name. False if name could not be updated because name wasn’t found or name was found but an
 //    existing name matching the updatedName already exists.
     public static boolean update(final String original, final String updatedName) {
-        String[] foundNames = new String[0];
-        for(int i=0; i < names.length; i++){
-            if(names[i].contains(original)) {
-                names[i] = updatedName;
+        boolean rF = false;
+ /*       String s = "";
+        String[] tmpArr = s.split(" ");
+        s = tmpArr[0];
+        String firstN;
+        for (String sE : names){
+            tmpArr = sE.split(" ");
+            firstN = tmpArr[0];
+            if (firstN.equalsIgnoreCase(s)){
 
+                return true;
             }
         }
-        return false;
+*/
+        for (int i = 0; i < names.length; i++) {
+            if (names[i].startsWith(original)) {
+                names[i] = updatedName;
+                rF = true;
+            } else if (names[i].equalsIgnoreCase(updatedName) && names[i].startsWith(original)) {
+                System.out.println("already updated");
+                rF = false;
+            } else if (!(names[i].startsWith(original))) {
+                System.out.println("name not found");
+                rF = false;
+            }
+        }
+        return rF;
     }
-
 //    Should remove a name from the array. Returns true if name was removed and false if the name was not
 //    removed for some reason
     public static boolean remove(final String fullName){
