@@ -139,7 +139,6 @@ public class NameRepository {
                 System.out.println("already updated");
                 rF = false;
             } else if (!(names[i].startsWith(original))) {
-                System.out.println("name not found");
                 rF = false;
             }
         }
@@ -147,7 +146,15 @@ public class NameRepository {
     }
 //    Should remove a name from the array. Returns true if name was removed and false if the name was not
 //    removed for some reason
-    public static boolean remove(final String fullName){
-        return false;
+    public static boolean remove(final String fullName) {
+        String[] tmpArr = new String[names.length];
+        boolean rF = false;
+        for (int i = 0; i < names.length; i++) {
+            if(names[i].equals(fullName)) {
+                rF = true;
+            }
+            tmpArr[i] = new[i];
+        }
+        return rF;
     }
 }
